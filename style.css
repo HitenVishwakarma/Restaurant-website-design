@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #2f3035;
+  background-image: url("images/restaurant-food-image10.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+
+
+  height: 118px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.336);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+main {
+  height: 400px;
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.308);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+h1 {
+  font-size: 84px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+  color: white;
+  text-decoration: underline;
+}
+
+main a:hover {
+  font-size: 150%;
+}
+
+main a:active {
+  color: red;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: rgb(184, 183, 183);
+  text-align: center;
+  font-size: 10px;
+}
+
+
+
+section iframe {
+  padding-bottom: 30px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
