@@ -12,8 +12,6 @@ body {
 }
 
 header {
-
-
   height: 118px;
   text-align: center;
   padding-top: 10px;
@@ -88,12 +86,14 @@ footer p {
   font-size: 10px;
 }
 
-
-
 section iframe {
   padding-bottom: 30px;
   padding-left: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+section div {
+  display: flex;
 }
